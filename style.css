@@ -1,19 +1,80 @@
-.biru {
-    background-position: auto; 
-    background-color: aquamarine;
+/* Global Background */
+body {
+    background-color: #f9f9f9;
 }
 
-h1 {
-    color: red;
-    background-position: auto; 
-    background-color: aquamarine;
+/* Container */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
-h2 {
-    color: blue;
-    background-color: greenyellow;
+.container img {
+    border-radius: 50%;
+    margin-bottom: 20px;
 }
 
-p {
-    background-color: turquoise;
+/* Achievement Section */
+.achievement-header {
+    color: #333;
+}
+
+.achievements li p {
+    color: #666;
+}
+
+/* Experience Section */
+.experience {
+    color: #fff;
+    font-weight: bold;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #333;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.investment {
+    background-color: #ff6f61;
+    color: #fff;
+}
+
+.stock-broker {
+    background-color: #45aaf2;
+    color: #fff;
+}
+
+.button:hover {
+    background-color: #333;
+}
+
+/* Skill Section */
+.skill-background {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.skill {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #333;
 }
