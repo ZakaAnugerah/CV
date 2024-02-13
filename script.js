@@ -18,3 +18,4 @@ var skillParagraphs = document.querySelectorAll('.skill');
 skillParagraphs.forEach(function(paragraph) {
     paragraph.style.backgroundColor = getRandomColor();
 });
+

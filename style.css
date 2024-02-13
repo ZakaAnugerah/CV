@@ -1,80 +1,61 @@
-/* Global Background */
+/* Global */
 body {
-    background-color: #f9f9f9;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
 }
 
-/* Container */
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+/* Navbar */
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Profile */
+.profile {
     text-align: center;
-    margin-bottom: 50px;
 }
 
-.container img {
-    border-radius: 50%;
-    margin-bottom: 20px;
+.profile img {
+    width: 200px;
 }
 
-/* Achievement Section */
-.achievement-header {
-    color: #333;
+/* Achievements */
+.achievements {
+    text-align: center;
 }
 
-.achievements li p {
-    color: #666;
+.achievements h2 {
+    color: #007bff;
 }
 
-/* Experience Section */
+/* Education */
+.education {
+    text-align: center;
+}
+
+.education h2 {
+    color: #007bff;
+}
+
+/* Experience */
 .experience {
-    color: #fff;
-    font-weight: bold;
-    margin-top: 50px;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: #333;
-}
-
-/* Buttons */
-.button {
-    display: inline-block;
-    padding: 15px 30px;
-    margin: 10px;
-    border: none;
-    border-radius: 25px;
-    text-decoration: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.investment {
-    background-color: #ff6f61;
-    color: #fff;
-}
-
-.stock-broker {
-    background-color: #45aaf2;
-    color: #fff;
-}
-
-.button:hover {
-    background-color: #333;
-}
-
-/* Skill Section */
-.skill-background {
-    background-color: #333;
-    padding: 20px 0;
     text-align: center;
 }
 
-.skill {
-    color: #fff;
-    font-size: 16px;
-    font-weight: bold;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: #333;
+.experience h2 {
+    color: #007bff;
+}
+
+/* Skills */
+.skills {
+    text-align: center;
+}
+
+.skills h2 {
+    color: #007bff;
 }
